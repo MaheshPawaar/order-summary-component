@@ -71,7 +71,7 @@ h1 {
 }
 
 .card__content__plan__container {
-    width: 100%;
+    width: 85%;
     background-color: var(--very-pale-blue);
     display: flex;
     flex-direction: row;
@@ -108,7 +108,7 @@ h1 {
 
 .card__content__payment {
     display: block;
-    width: 80%;
+    width: 85%;
     background-color: var(--bright-blue);
     text-align: center;
     text-decoration: none;
@@ -154,6 +154,14 @@ footer {
     .card {
         display: block;
         max-width: 350px;
+    }
+
+    .card__content__plan__container{
+        width: 100%;
+    }
+
+    .card__content__payment{
+        width: 100%;
     }
 
     .card__content__cancel__order {
