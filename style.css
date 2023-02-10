@@ -36,7 +36,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 430px;
+    max-width: 450px;
     background-color: white;
     box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
     border-radius: 15px;
@@ -54,7 +54,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    margin: 1.5rem 2rem;
 }
 
 h1 {
@@ -129,7 +129,7 @@ h1 {
     font-weight: 700;
     color: var(--desaturated-blue);
     text-decoration: none;
-    margin: 1rem 0 2rem 0;
+    padding: 1rem 0;
 }
 
 .card__content__cancel__order:hover {
@@ -154,5 +154,9 @@ footer {
     .card {
         display: block;
         max-width: 350px;
+    }
+
+    .card__content__cancel__order {
+        padding: 1rem 0 1.5rem 0;
     }
 }
