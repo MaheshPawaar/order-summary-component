@@ -19,16 +19,11 @@
 
 /* general styles */
 
-html,
-body {
-    height: 100%;
-}
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
+    min-height: 100vh;
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: repeat-x;
     background-color: var(--pale-blue);
@@ -41,7 +36,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 425px;
+    max-width: 430px;
     background-color: white;
     box-shadow: 0px 20px 20px rgba(56,42,225,0.2);
     border-radius: 15px;
@@ -123,7 +118,7 @@ h1 {
     padding: 1rem 1.25rem;
     font-weight: bold;
     border-radius: 15px;
-    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+    box-shadow: 0px 20px 20px var(--desaturated-blue);
 }
 
 .card__content__payment:hover {
